@@ -60,8 +60,8 @@
   SF-DRAWABLE   "Input Drawable"   0
   SF-ADJUSTMENT _"X Offset (pixels)"        '(0 0 10000 1 10 0 1)
   SF-ADJUSTMENT _"Y Offset (pixels)"        '(0 0 10000 1 10 0 1)
-  SF-ADJUSTMENT _"X Size (pixels)"        '(0 0 10000 1 10 0 1)
-  SF-ADJUSTMENT _"Y Size (pixels)"        '(0 0 10000 1 10 0 1)
+  SF-ADJUSTMENT _"X Cell Size (pixels)"        '(0 0 10000 1 10 0 1)
+  SF-ADJUSTMENT _"Y Cell Size (pixels)"        '(0 0 10000 1 10 0 1)
   SF-ADJUSTMENT _"X Padding (pixels)"        '(0 0 10000 1 10 0 1)
   SF-ADJUSTMENT _"Y Padding (pixels)"        '(0 0 10000 1 10 0 1)
   
