@@ -31,17 +31,15 @@
 	    (set! xposition (+ xsize xposition))
 	    (gimp-image-add-vguide image xposition)
 	    (when (> xpadding  0)
-            (set! xposition (+ xpadding xposition))
-            (gimp-image-add-vguide image xposition)
-        )
+            	(set! xposition (+ xpadding xposition))
+            	(gimp-image-add-vguide image xposition))
     )  
     (while (< (+ yposition ysize) (- height yoffset))
         (set! yposition (+ ysize yposition))
 	    (gimp-image-add-hguide image yposition)
 	    (when (> ypadding 0)
-            (set! yposition (+ ypadding yposition))
-            (gimp-image-add-hguide image yposition)
-        )
+            	(set! yposition (+ ypadding yposition))
+            	(gimp-image-add-hguide image yposition))
     )
     
     
@@ -60,12 +58,12 @@
   ""
   SF-IMAGE      "Input Image"      0
   SF-DRAWABLE   "Input Drawable"   0
-  SF-ADJUSTMENT _"X Offset"        '(0 0 10000 1 10 0 1)
-  SF-ADJUSTMENT _"Y Offset"        '(0 0 10000 1 10 0 1)
-  SF-ADJUSTMENT _"X Size"        '(0 0 10000 1 10 0 1)
-  SF-ADJUSTMENT _"Y Size"        '(0 0 10000 1 10 0 1)
-  SF-ADJUSTMENT _"X Padding"        '(0 0 10000 1 10 0 1)
-  SF-ADJUSTMENT _"Y Padding"        '(0 0 10000 1 10 0 1)
+  SF-ADJUSTMENT _"X Offset (pixels)"        '(0 0 10000 1 10 0 1)
+  SF-ADJUSTMENT _"Y Offset (pixels)"        '(0 0 10000 1 10 0 1)
+  SF-ADJUSTMENT _"X Size (pixels)"        '(0 0 10000 1 10 0 1)
+  SF-ADJUSTMENT _"Y Size (pixels)"        '(0 0 10000 1 10 0 1)
+  SF-ADJUSTMENT _"X Padding (pixels)"        '(0 0 10000 1 10 0 1)
+  SF-ADJUSTMENT _"Y Padding (pixels)"        '(0 0 10000 1 10 0 1)
   
 )
 
